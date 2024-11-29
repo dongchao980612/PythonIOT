@@ -1,0 +1,16 @@
+a="he"
+print(a)
+b=3+2
+a=b
+print(b)
+print(a)
+b=b+a
+print(b)
+a,b="he",12
+print(a,b)
+a,b=b,a
+print(a,b)
+c,a,b=a,b,a
+print(a,b,c)
+a=b=c=10
+print(a,b,c)
