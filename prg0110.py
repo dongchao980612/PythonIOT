@@ -12,5 +12,5 @@ if c in ['+','-','*','/']:
             print("division by zero")
         else:
             print(a/b)
-else:
+else: 
     print("invalid operator")
